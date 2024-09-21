@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - REMEDEE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>REMEDEE UF</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="home2.html">⬅Back</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="checkout">
+            <h2>Your Cart</h2>
+            <div id="cart-items">
+                <p>Your cart is empty.</p>
+            </div>
+            <div id="total-price"></div>
+            <button id="pay-swish">Pay with Swish</button>
+        </section>
+
+        <!-- Modal for showing Swish number -->
+        <div id="swish-modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Use this Swish number to pay: <strong>076-795-4837</strong></p>
+            </div>
+        </div>
+    </main>
+
+    <script src="checkout.js"></script>
+</body>
+</html>
